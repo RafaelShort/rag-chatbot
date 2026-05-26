@@ -1,0 +1,35 @@
+# API
+fastapi>=0.109.0,<0.120.0
+uvicorn[standard]>=0.27.0,<0.35.0
+python-multipart>=0.0.9
+
+# LangChain
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai==0.1.25
+
+# Vector Store
+qdrant-client==1.7.3
+
+# Embeddings e LLM
+openai>=1.40.0,<2.0.0
+sentence-transformers==2.6.1
+
+# Re-ranking
+FlagEmbedding==1.2.10
+
+# Document Parsing
+pypdf==4.0.2
+python-docx==1.1.0
+unstructured==0.16.10
+
+# Evaluation
+ragas==0.1.7
+
+# Utilities
+python-dotenv==1.0.1
+pydantic>=2.7.4,<3.0.0
+pydantic-settings>=2.3.0,<3.0.0
+httpx>=0.26.0,<0.28.0
+aiofiles==23.2.1
+loguru==0.7.2
